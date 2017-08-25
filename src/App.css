@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.inputField {
+  width: 20%;
+  margin-top: 24px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  width: 100vw;
+}
+
+.inlineTask {
+  font-size: large;
+  font-weight: bold;
+}
+
+/* .taskDisplay {
+  background: lightblue;
+  border: solid 1px;
+  width: 20%;
+  margin-top: 8px;
+} */
+
+.completeTask {
+  font-size: x-small;
+  background: green;
+  width: 70px;
+  height: 24px;
+  margin: auto;
+}
+
+.completeDisable {
+  background: grey;
+  text-decoration: line-through;
+}
+
+.deleteComplete {
+  display: none;
+}
+
+.deleteTask {
+  font-size: x-small;
+  background: red;
+  width: 60px;
+  height: 24px;
+  margin: auto;
+  margin-top: 8px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
